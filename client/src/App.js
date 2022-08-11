@@ -24,8 +24,8 @@ function App() {
   }, [data]);
 
   return (
-    <>
-      <div className="container">
+    <div className="container">
+      <div className="container__main">
         <img src={gif} alt="horses" />
         <table className="table">
           <thead>
@@ -48,7 +48,7 @@ function App() {
       </div>
 
       <button onClick={startDistance}>Start</button>
-    </>
+    </div>
   );
 }
 
